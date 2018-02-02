@@ -14,5 +14,9 @@ public class Main {
             System.out.println(b);
         }
         //get arrays and print
+
+        for(int[] c: arr.getTwo()){
+            System.out.println(c);
+        }
     }
 }

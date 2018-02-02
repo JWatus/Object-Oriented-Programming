@@ -13,8 +13,8 @@ import java.util.List;
  */
 public class ListsExample {
 
-    private List<String> myList = new ArrayList<String>();
-    private List<String> myList2 = new LinkedList<String>();
+    private List<String> myList = new ArrayList<>();
+    private List<String> myList2 = new LinkedList<>();
 
 
     public void addArrayList(String element) {

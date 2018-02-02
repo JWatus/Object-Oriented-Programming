@@ -13,8 +13,8 @@ import java.util.List;
  */
 public class ListsExample {
 
-    private List<String> myList = new ArrayList<>();
-    private List<String> myList2 = new LinkedList<>();
+    private List<String> myList = new ArrayList<String>();
+    private List<String> myList2 = new LinkedList<String>();
 
 
     public void addArrayList(String element) {
@@ -24,7 +24,7 @@ public class ListsExample {
 
     public void addLinkedList(String element) {
 
-        myList.add(element);
+        myList2.add(element);
     }
 
     public void removeArrayList(int index) {

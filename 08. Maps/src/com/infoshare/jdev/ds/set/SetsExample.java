@@ -1,5 +1,7 @@
 package com.infoshare.jdev.ds.set;
 
+import org.omg.PortableInterceptor.INACTIVE;
+
 import java.util.*;
 
 /**
@@ -21,10 +23,12 @@ public class SetsExample {
     public SetsExample() {
         System.out.println("GENERATED ARRAY: ");
         this.generated = generate();
-        for (int a: this.generated) {
+        for (int a:
+             this.generated) {
             System.out.print(a + " ");
         }
         System.out.println();
+        this.<Integer>printSet(mySet);
     }
 
     private <T> void printSet(Set<T> set) {
@@ -34,7 +38,7 @@ public class SetsExample {
     }
 
     public void printHashSet(){
-        mySet.add(this.generated[0]);
+        mySet.add(this.generated[1]);
         mySet.add(this.generated[1]);
         mySet.add(this.generated[2]);
         System.out.println(mySet);

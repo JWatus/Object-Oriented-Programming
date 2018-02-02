@@ -12,9 +12,9 @@ import java.util.*;
  */
 public class SetsExample {
 
-    Set<Integer> mySet = new HashSet<>();
-    Set<Integer> mySet2 = new LinkedHashSet<>();
-    Set<Integer> mySet3 = new TreeSet<>();
+    Set<Integer> mySet = new HashSet<Integer>();
+    Set<Integer> mySet2 = new LinkedHashSet<Integer>();
+    Set<Integer> mySet3 = new TreeSet<Integer>();
 
     private <T> void printSet(Set<T> set) {
         for (T a: set) {
