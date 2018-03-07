@@ -44,8 +44,7 @@ public class ListsExample {
 
 /////////////// CREATING AND FILLING LIST //////////////////////////////////////////////////////////////////////////////
 
-    public List<MyPoint> listOne = new ArrayList<>();
-
+    public List<MyPoint> listOne = new ArrayList<MyPoint>();
 
     public void addPositions() {
 

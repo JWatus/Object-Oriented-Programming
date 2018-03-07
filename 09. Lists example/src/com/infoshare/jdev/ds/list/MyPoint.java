@@ -9,7 +9,6 @@ public class MyPoint extends Point implements Comparable<MyPoint> {
     }
 
 
-    @Override
     public int compareTo(MyPoint o) {
         if (x > o.x) return 1;
         else if (x < o.x) return -1;
